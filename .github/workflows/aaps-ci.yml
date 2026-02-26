@@ -210,8 +210,8 @@ jobs:
         with:
           name: aaps-apks
           path: |
-            app/build/outputs/apk/**/*.apk
-            wear/build/outputs/apk/**/*.apk
+            ./aaps-*.apk
+            ./aaps-wear-*.apk
 
 
 #      - name: Upload APKs to Google Drive
